@@ -1,9 +1,9 @@
 package org.example;
 
 public class Book {
-    private String title;
-    private String author;
-    private String ISBN;
+    private final String title;
+    private final String author;
+    private final String ISBN;
     private int copies;
 
     public Book(String title, String author, String ISBN, int copies) {

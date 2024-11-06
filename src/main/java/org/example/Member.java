@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Member {
     private String name;
-    private String id;
+    String id;
     private List<Book> borrowedBooks;
 
     public Member(String name, String id) {
